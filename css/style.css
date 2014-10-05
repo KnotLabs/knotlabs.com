@@ -66,6 +66,7 @@ a{
 }
 
 a aside{
+	position: relative;
 	width: 200px;
 	height: 200px;
 	margin: auto;
@@ -75,6 +76,23 @@ a aside{
 	box-sizing: border-box;
 	color: white;
 	font-weight: 800;
+	overflow: hidden;
+}
+
+a aside div{
+	position: absolute;
+	top: 33px;
+	right: -90px;
+	width: 200px;
+	height: 30px;
+	background: white;
+	color: black;
+	font-weight: 300;
+	-ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+    font-size: 20px;
+    padding: 3px 50px 7px 0px;
 }
 
 #about-us{
@@ -83,11 +101,12 @@ a aside{
 
 .no-style{
 	padding: 0;
+	color: #01A9DB;
 }
 
 .no-style:hover{
 	background: transparent;
-
+	color: #01A9DB;
 }
 
 .us-pictures{
