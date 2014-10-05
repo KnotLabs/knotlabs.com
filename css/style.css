@@ -1,0 +1,98 @@
+html, body{
+	font-family: 'Josefin Slab', serif;
+}
+
+.c{
+	text-align: center;
+	width: 100%;
+}
+
+.b{
+	font-weight: 700;
+}
+
+.n{
+	font-weight: 400;
+}
+
+.l{
+	font-weight: 300;
+}
+
+.container{
+	padding: 0px 40px;
+}
+
+#logo{
+	width: 100px;
+	position: relative;
+	display: block;
+	margin: 40px auto 20px auto;
+}
+
+#sub-head{
+	font-size: 14px;
+	width: 100%;
+	text-align: center;
+}
+
+section{
+	border-top: 1px solid #F2F2F2;
+	margin: 40px 0px;
+	padding: 20px 0px;
+}
+
+section h2{
+	padding-bottom: 20px;
+}
+
+section h3{
+	width: 100%;
+	text-align: center;
+}
+
+a{
+	color: black;
+}
+
+a:hover{
+	text-decoration: none;
+	color: black;
+}
+
+section p{
+	font-size: 18px;
+}
+
+a aside{
+	width: 200px;
+	height: 200px;
+	margin: auto;
+	background: red;
+	font-size: 80px;
+	padding: 50px 0px;
+	text-align: center;
+	box-sizing: border-box;
+	color: white;
+/*	-moz-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+	transition:all 0.3s ease;*/
+	font-weight: 800;
+}
+/*
+a:hover aside{
+	-webkit-filter: blur(0px);
+	filter: blur(0px);
+}*/
+
+footer{
+	padding: 20px;
+	border-top: 1px solid #F2F2F2;
+	color: #D8D8D8;
+}
+
+
+
+
