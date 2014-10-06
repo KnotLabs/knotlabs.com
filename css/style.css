@@ -86,7 +86,7 @@ a aside div{
 	width: 200px;
 	height: 30px;
 	background: white;
-	color: black;
+	color: #A4A4A4;
 	font-weight: 300;
 	-ms-transform: rotate(45deg); /* IE 9 */
     -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
