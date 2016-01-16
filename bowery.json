@@ -1,6 +1,0 @@
-{
-  "knotlabs": {
-    "image": "php",
-    "path": ".:/application"
-  }
-}
