@@ -188,10 +188,10 @@
 
 
     <footer>
-      <h5 class="c">KnotLabs@gmail.com&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;Knot Labs &copy; 2016&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;Made with &lt;3 in 42.36° -71.06°</h5>
+      <h5 class="c">KnotLabs@gmail.com&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;Knot Labs &copy; <span id="year"></span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;Made with &lt;3 in 42.36° -71.06°</h5>
     </footer>
 
-
+    <script>document.getElementById("year").innerHTML = new Date().getFullYear(); </script>
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
     <script>
